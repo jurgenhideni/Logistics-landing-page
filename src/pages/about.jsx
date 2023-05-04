@@ -12,6 +12,7 @@ const about = () => {
       <div className="flex mt-10 items-center gap-5 bg-gradient-to-r from-black py-[10px]  text-black ">
         <Image
           src={aboutImg}
+          alt="image"
           className="ml-5  max-h-[400px] w-auto  border-[5px] border-red-700 rounded-full  "
         />
         <p className=" text-[1.5rem] text-black font-semibold  leading-loose ">
@@ -41,6 +42,7 @@ const about = () => {
         </p>
         <Image
           src={aboutImg2}
+          alt="image"
           className="max-h-[400px] w-auto  border-[5px] border-red-700 rounded-full mr-[10px] my-2
           "
         />
@@ -48,6 +50,7 @@ const about = () => {
       <div className="flex  items-center gap-5 bg-gradient-to-r from-black mt-[10px]  text-black">
         <Image
           src={warehouse}
+          alt="image"
           className="max-h-[400px] w-auto  border-[5px] border-red-700 rounded-full mr-[10px] 
            my-2"
         />

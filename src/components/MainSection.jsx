@@ -20,13 +20,13 @@ const MainSection = () => {
           Delivery Every Time.
         </h2>
         <Link
-          href="/info"
+          href="/prices"
           className=" w-[150px] text-center py-3 text-rose-600 
           font-bold text-[1.5rem] rounded-md 
           hover:bg-rose-700 hover:text-white
           transition ease-in-out "
         >
-          More Info...
+          Prices $$$
         </Link>
         <Socials />
       </div>

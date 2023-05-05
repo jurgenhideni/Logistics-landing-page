@@ -57,10 +57,10 @@ const about = () => {
         <p className=" ml-5 text-[1.5rem]  font-semibold  leading-loose text-black">
           We value our customers and take pride in the long-term relationships
           that we have built with them. We are always looking for ways to
-          improve our services and exceed our customers' expectations. If you
+          improve our services and exceed our customers expectations. If you
           have any questions or would like to learn more about our services,
-          please don't hesitate to contact us. We look forward to working with
-          you!
+          please don&apos;t hesitate to contact us. We look forward to working
+          with you!
         </p>
       </div>
     </div>

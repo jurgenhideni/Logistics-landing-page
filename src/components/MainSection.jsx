@@ -7,7 +7,7 @@ import Socials from "./Socials";
 const MainSection = () => {
   return (
     <div className="flex items-center justify-between mr-5">
-      <Image className="lg:max-h-[950px] lg:w-auto" src={image1} />
+      <Image className="lg:max-h-[950px] lg:w-auto" src={image1} alt="image" />
 
       <div className="grid gap-10 grid-cols-1">
         <h1 className="font-bold text-rose-700 text-[5rem] ">

@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=2000);
+body {
+  background-color: rgb(219, 228, 238);
 }

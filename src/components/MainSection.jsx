@@ -21,10 +21,10 @@ const MainSection = () => {
         </h2>
         <Link
           href="/prices"
-          className=" w-[150px] text-center py-3 text-rose-600 
+          className=" w-[150px] text-center py-3 text-white 
           font-bold text-[1.5rem] rounded-md 
-          hover:bg-rose-700 hover:text-white
-          transition ease-in-out "
+          
+          transition ease-in-out bg-rose-700 hover:text-rose-700 hover:bg-white shadow-md"
         >
           Prices $$$
         </Link>

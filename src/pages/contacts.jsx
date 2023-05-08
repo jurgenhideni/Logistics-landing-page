@@ -53,6 +53,12 @@ const Contacts = () => {
               className="bg-transparent border-none outline-none min-w-[250px] px-2"
             />
           </p>
+          <button
+            className="bg-white max-w-[100px] text-rose-700 px-5 py-1 rounded-md font-bold hover:text-white hover:bg-rose-500 "
+            type="submit"
+          >
+            Send
+          </button>
         </div>
       </div>
     </div>

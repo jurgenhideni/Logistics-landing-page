@@ -37,7 +37,7 @@ const about = () => {
           </span>
           <br />
           At our logistics company, we understand that every business has unique
-          needs, challenges, and goals. That's why we take a consultative
+          needs, challenges, and goals. Thats why we take a consultative
           approach, working closely with our clients to understand their
           business and tailor our solutions to their specific requirements. We
           believe in building strong relationships based on trust, open
@@ -60,11 +60,11 @@ const about = () => {
           inventory management to transportation, we provide end-to-end
           logistics solutions that meet the highest quality standards. Our team
           of experts is highly trained and experienced, ensuring that our
-          clients' logistics needs are met with the utmost professionalism and
+          clients logistics needs are met with the utmost professionalism and
           attention to detail. We start by conducting a comprehensive analysis
-          of our clients' logistics requirements, identifying areas for
+          of our clients logistics requirements, identifying areas for
           improvement and potential cost savings. We then develop a customized
-          logistics plan that takes into account our clients' specific needs and
+          logistics plan that takes into account our clients specific needs and
           goals, including transportation, warehousing, inventory management,
           and order fulfillment. Throughout the logistics process, we provide
           full visibility and transparency, keeping our clients informed at
@@ -80,7 +80,7 @@ const about = () => {
       <p className="text-center my-14 font-semibold text-rose-700">
         Thank you for considering our logistics services. We look forward to
         working with you to achieve your logistics goals and contribute to your
-        business's success Contact us today to learn more about our logistics
+        business success Contact us today to learn more about our logistics
         services .
       </p>
     </div>

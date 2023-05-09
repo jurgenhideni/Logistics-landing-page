@@ -6,11 +6,15 @@ import Socials from "./Socials";
 
 const MainSection = () => {
   return (
-    <div className="flex items-center justify-between mr-5">
-      <Image className="lg:max-h-[950px] lg:w-auto" src={image1} alt="image" />
+    <div className="flex items-center justify-between mr-5 max-md:mx-auto">
+      <Image
+        className="lg:max-h-[950px] lg:w-auto max-md:hidden"
+        src={image1}
+        alt="image"
+      />
 
       <div className="grid gap-10 grid-cols-1">
-        <h1 className="font-bold text-rose-700 text-[5rem] ">
+        <h1 className="font-bold text-rose-700 text-[5rem]  max-md:min-w-[500px]">
           A new Perspective <br />
           of Delivering Goods
         </h1>
@@ -26,7 +30,7 @@ const MainSection = () => {
           
           transition ease-in-out bg-rose-700 hover:text-rose-700 hover:bg-white shadow-md"
         >
-          Prices $$$
+          Get a Quote
         </Link>
         <Socials />
       </div>

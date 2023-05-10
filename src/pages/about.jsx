@@ -6,9 +6,9 @@ import approachImg from "../assets/approach.jpg";
 import proccess from "../assets/proccess.jpg";
 const about = () => {
   return (
-    <div>
+    <div className="max-sm:min-w-[800px]">
       <Navbar />
-      <div className="text-center">
+      <div className="text-center max-md:py-[2.5rem]">
         <h1 className="text-[3.5rem] font-bold font-serif text-rose-700">
           About Us
         </h1>
@@ -22,16 +22,16 @@ const about = () => {
         <Image
           src={vision}
           alt="image"
-          className="max-h-[450px] w-auto shadow-md rounded-lg"
+          className="max-h-[450px] w-auto shadow-md rounded-lg max-md:hidden"
         />
       </div>
       <div className="flex justify-around mt-[100px] ">
         <Image
           src={approachImg}
           alt="image"
-          className="max-h-[400px] w-auto rounded-lg shadow-lg"
+          className="max-h-[400px] w-auto rounded-lg shadow-lg max-md:hidden"
         />
-        <p className=" mb-3 max-w-[700px] leading-10">
+        <p className=" mb-3 max-w-[700px] leading-10 max-md:text-[1rem]">
           <span className="text-[2.7rem] font-bold font-serif ">
             Our Approach
           </span>
@@ -74,10 +74,10 @@ const about = () => {
         <Image
           src={proccess}
           alt="image"
-          className="max-h-[400px] w-auto rounded-lg shadow-lg"
+          className="max-h-[400px] w-auto rounded-lg shadow-lg max-md:hidden"
         />
       </div>
-      <p className="text-center my-14 font-semibold text-rose-700">
+      <p className="text-center my-14 font-semibold text-rose-700 max-md:font-bold">
         Thank you for considering our logistics services. We look forward to
         working with you to achieve your logistics goals and contribute to your
         business success Contact us today to learn more about our logistics

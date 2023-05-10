@@ -7,25 +7,25 @@ const prices = () => {
         Get a Quote
       </h1>
 
-      <div className="grid justify-center gap-5">
+      <div className="grid justify-center gap-5 max-sm:grid-cols-1 text-center">
         <h2 className="text-[2rem]">Basic Information</h2>
-        <form className=" flex flex-col justify-center gap-5 text-[1.2rem] text-rose-700">
+        <form className=" flex flex-col justify-center gap-5 text-[1.2rem] text-rose-700 max-md:mx-4">
           <input
             type="email"
             placeholder="E-mail"
             required
             className="py-1 px-2 outline-none border-0"
           />
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-5 max-sm:gap-2">
             <input
               type="text"
               placeholder="First Name"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-md:max-w-[210px]"
             />
             <input
               type="text"
               placeholder="Last Name"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-md:max-w-[180px]"
             />
           </div>
           <input
@@ -41,16 +41,16 @@ const prices = () => {
             required
             className="py-1 px-2 outline-none border-0"
           />
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-5 max-sm:gap-2">
             <input
               type="text"
               placeholder="City"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-md:max-w-[210px]"
             />
             <input
               type="text"
               placeholder="State"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-md:max-w-[180px]"
             />
           </div>
           <input
@@ -58,23 +58,23 @@ const prices = () => {
             placeholder="ZIP"
             className="py-1 px-2 outline-none border-0"
           />
-          <h2 className="text-black text-[2rem] pt-2">Relocation Details</h2>
+          <h2 className="text-black text-[2rem]  pt-2">Relocation Details</h2>
           <input
             type="number"
             placeholder="Estimated HHE volume  (cbm)"
             required
             className="py-1 px-2 outline-none border-0"
           />
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-5 max-sm:gap-2 ]">
             <input
               type="text"
               placeholder="Pick-Up Adress"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-sm:max-w-[210px]"
             />
             <input
               type="text"
               placeholder="Unloading Adress"
-              className="py-1 px-2 outline-none border-0"
+              className="py-1 px-2 outline-none border-0 max-sm:max-w-[180px]"
             />
           </div>
           <input
@@ -88,7 +88,7 @@ const prices = () => {
             className="py-1 px-2 outline-none border-0"
           />
         </form>
-        <button className="bg-rose-700 px-10 py-1 mx-auto my-1 text-white rounded-lg font-bold">
+        <button className="bg-rose-700 px-10 py-1 mx-auto my-1  max-md:py-2 max-md:my-3 text-white rounded-lg font-bold">
           Submit
         </button>
       </div>

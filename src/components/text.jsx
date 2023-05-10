@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTexts = () => {
   return (
-    <p className="max-w-[700px] leading-9">
+    <p className="max-w-[700px] leading-9 max-md:text-[1.1rem]">
       At our company, we strive to be the leading provider of logistics
       services, setting the industry standard for excellence. Our vision is to
       create a world where businesses can rely on a seamless, efficient, and

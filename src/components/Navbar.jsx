@@ -12,26 +12,26 @@ const Navbar = () => {
           Hideni Logistics Services™
         </p>
       </div>
-      <div className="uppercase flex gap-[90px] items-center font-bold text-rose-700 text-xl max-sm:text-[1.5rem] ">
+      <div className="uppercase flex gap-[90px] items-center font-bold text-rose-700 text-xl max-sm:text-[1.8rem] ">
         <Link
-          className="hover:scale-125 transition 
-          ease-in-out hover:text-white hover:bg-rose-700 
+          className="lg:hover:scale-125 transition 
+          ease-in-out lg:hover:text-white lg:hover:bg-rose-700 
           lg:px-2 lg:py-1 rounded-lg"
           href="/"
         >
           Home
         </Link>
         <Link
-          className="hover:scale-125 transition ease-in-out 
-          hover:text-white hover:bg-rose-700 lg:px-2
+          className="lg:hover:scale-125 transition ease-in-out 
+          lg:hover:text-white lg:hover:bg-rose-700 lg:px-2
           lg:py-1 rounded-lg max-sm:min-w-[120px]"
           href="/about"
         >
-          About us
+          About
         </Link>
         <Link
-          className="hover:scale-125 transition ease-in-out 
-          hover:text-white hover:bg-rose-700 lg:px-2
+          className="lg:hover:scale-125 transition ease-in-out 
+          lg:hover:text-white lg:hover:bg-rose-700 lg:px-2
           lg:py-1 rounded-lg max-sm:mx-5 "
           href="/contacts"
         >

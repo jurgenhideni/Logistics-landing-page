@@ -23,12 +23,12 @@ const MainSection = () => {
         </h2>
         <div className="max-md:grid max-md:justify-center">
           <Link
-            href="/prices"
+            href="/about"
             className=" w-[150px] max-sm:w-[260px] text-center py-3 text-white px-3 
           font-bold text-[1.5rem] rounded-md max-sm:text-[2.5rem] 
           transition ease-in-out bg-rose-700 hover:text-rose-700 hover:bg-white shadow-md"
           >
-            Get a Quote
+            More Info...
           </Link>
           <Socials />
         </div>

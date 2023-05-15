@@ -2,11 +2,17 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 import box from "../assets/box.png";
 import Image from "next/image";
+
+import { BsTiktok } from "react-icons/bs";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { MdOutgoingMail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+
 const Contacts = () => {
   return (
     <div className="h-screen  lg:bg-[url('https://wallpapercave.com/wp/wp3704690.png')] flex flex-col gap-10 ">
       <Navbar />
-      <div className="flex">
+      <div className="flex max-sm:mb-16">
         <Image src={box} alt="box" className="lg:hidden max-sm:min-w-[350px]" />
         <h1 className="text-center font-bold text-rose-700 lg:text-[7rem] max-md:text-[6rem] max-sm:min-w-[500px] ">
           Lets have a talk !
@@ -15,7 +21,7 @@ const Contacts = () => {
       <div className="grid lg:grid-cols-3 max-sm:grid-cols-1 bg-rose-700 max-sm:bg-none ">
         <div className="max-sm:hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4237.223685465344!2d19.833658964896557!3d41.32692523426859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1683541601335!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.191179938245!2d19.826457911960315!3d41.326455971187976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503117c11e3f9b%3A0x6d2e57eb3fb56bdd!2sRruga%20Shyqyri%20Ishmi%2C%20Tirana%2C%20Albania!5e0!3m2!1sen!2s!4v1684145580398!5m2!1sen!2s"
             width="550"
             height="450"
             allowfullscreen=""
@@ -38,41 +44,38 @@ const Contacts = () => {
             <p>Adress : Shyqyri Ishmi 43</p>
           </div>
         </div>
-        <div className="bg-rose-800  flex flex-col gap-[120px] max-sm:gap-[100px] max-sm:min-w-[900px]  max-sm:text-center max-sm:items-center lg:px-6 max-sm:py-5">
+        <div className="bg-rose-800  flex flex-col   max-sm:min-w-[900px] lg:gap[100px] max-sm:text-center max-sm:items-center lg:px-6 max-sm:py-5 ">
           <h2 className="text-[3rem] text-white max-sm:text-[4rem]  ">
             Reach us
           </h2>
-          <p className="text-white max-sm:text-[2.2rem]">
-            hello, <br /> my name is{" "}
-            <input
-              type="text"
-              placeholder="Your name"
-              className="bg-transparent border-none outline-none max-w-[100px] max-sm:px-2  max-sm:text-[1.7rem]"
-            />
-            and my e-mail address is{" "}
-            <input
-              type="text"
-              placeholder="your e-mail"
-              className="bg-transparent border-none outline-none max-w-[100px] max-sm:px-2  max-sm:text-[1.7rem]"
-            />
-            and i <br />
-            would like to discuss about{" "}
-            <input
-              type="text"
-              placeholder="this project ."
-              className="bg-transparent border-none outline-none min-w-[250px] max-sm:px-2  max-sm:text-[1.7rem] "
-            />
-          </p>
-          <button
-            className="bg-white lg:max-w-[100px]  text-rose-700 px-10 py-3 rounded-md font-bold hover:text-white hover:bg-rose-500 max-sm:text-[2.5rem]"
-            type="submit"
+          <div
+            className="flex flex-col gap-7  max-sm:text-[2rem] text-xl
+          text-white  max-sm:py-10 max-sm:px-10 max-sm:gap-10 relative top-10 max-sm:mb-[100px]"
           >
-            Send
-          </button>
-          <p className="lg:hidden text-[1.3rem] pb-3 text-white">
-            The information you provide will be fully protected and will not be
-            used illegally by any means.
-          </p>
+            <p className=" flex items-center gap-10">
+              <MdOutgoingMail className="max-sm:text-[3rem]" />
+              logisticshideni@gmail.com
+            </p>
+
+            <p className=" flex items-center gap-10">
+              <BsWhatsapp className="max-sm:text-[2rem]" />
+              00355697431224
+            </p>
+
+            <p className=" flex items-center gap-10">
+              <FaInstagram className="max-sm:text-[2rem]" />
+              @hidenilogistics
+            </p>
+
+            <p className=" flex items-center  gap-10">
+              <FaFacebook className="max-sm:text-[2rem]" /> Hideni Logistics
+            </p>
+
+            <p className=" flex items-center  gap-10">
+              <BsTiktok className="max-sm:text-[2rem]" />
+              @hidenilogistics
+            </p>
+          </div>
         </div>
       </div>
     </div>

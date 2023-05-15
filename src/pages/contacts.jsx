@@ -39,8 +39,8 @@ const Contacts = () => {
           </p>
 
           <div className="flex flex-col gap-[30px] mt-14 max-sm:text-[2.3rem] ">
-            <p>Phone : +0123 4567 8910</p>
-            <p>Email : hello@logistics.com</p>
+            <p>Phone : +355697431224</p>
+            <p>Email : logisticshideni@gmail.com</p>
             <p>Adress : Shyqyri Ishmi 43</p>
           </div>
         </div>

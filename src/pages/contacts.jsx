@@ -43,7 +43,7 @@ const Contacts = () => {
           Lets have a talk !
         </h1>
       </div>
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-10 ">
         <Image
           src={management}
           width={465}
@@ -55,7 +55,8 @@ const Contacts = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=" grid grid-cols-1 max-w-[600px] gap-7 px-10 py-10 bg-white rounded-r-xl"
+          className=" grid grid-cols-1 max-w-[600px] gap-7 px-10 py-10 bg-white rounded-r-xl max-sm:flex max-sm:flex-col max-sm:relative left-56 max-sm:max-w-[800px]
+         "
         >
           <h1 className="text-center font-bold text-[2rem] text-red-700">
             Contact us
@@ -67,6 +68,7 @@ const Contacts = () => {
               type="text"
               name="firstName"
               placeholder="First Name"
+              required
             />
 
             <input
@@ -75,6 +77,7 @@ const Contacts = () => {
               type="text"
               name="lastName"
               placeholder="Last Name"
+              required
             />
           </div>
 
@@ -84,6 +87,7 @@ const Contacts = () => {
             type="text"
             name="phone"
             placeholder="Phone Number"
+            required
           />
 
           <input
@@ -92,6 +96,7 @@ const Contacts = () => {
             type="email"
             name="email"
             placeholder="Email"
+            required
           />
           <input
             autoComplete="off"
@@ -99,6 +104,7 @@ const Contacts = () => {
             type="text"
             name="volume"
             placeholder="Estimated HHE Volume (m3)"
+            required
           />
           <textarea
             name="message"

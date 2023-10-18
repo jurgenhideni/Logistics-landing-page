@@ -55,7 +55,7 @@ const Contacts = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=" grid grid-cols-1 max-w-[600px] gap-7 px-10 py-10 bg-white rounded-r-xl max-sm:flex max-sm:flex-col max-sm:relative left-56 max-sm:max-w-[800px]
+          className=" grid grid-cols-1 max-w-[600px] gap-7 px-10 py-10 bg-white rounded-r-xl max-sm:flex max-sm:flex-col max-sm:relative left-56 max-sm:max-w-[900px]
          "
         >
           <h1 className="text-center font-bold text-[2rem] text-red-700">

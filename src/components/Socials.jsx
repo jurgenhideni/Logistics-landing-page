@@ -1,6 +1,6 @@
 import React from "react";
-import insta from "../assets/instagram.png";
-import facebook from "../assets/facebook.webp";
+import phone from "../assets/phone.webp";
+import email from "../assets/gmail.png";
 import tiktok from "../assets/tiktok.png";
 
 import Image from "next/image";
@@ -9,17 +9,17 @@ import Link from "next/link";
 const Socials = () => {
   return (
     <div className="flex gap-[50px] max-sm:gap-[100px] mt-[80px]">
-      <Link href="https://instagram.com/florenchideni?igshid=YmMyMTA2M2Y=">
+      <Link href={`tel:${+355695486984}`}>
         <Image
-          src={insta}
-          alt="insta"
+          src={phone}
+          alt="phone"
           className="max-h-[40px] w-auto hover:scale-125 transition ease-in-out max-sm:max-h-[60px]"
         />
       </Link>
-      <Link href="https://www.facebook.com/flori.hideni?mibextid=ZbWKwL">
+      <Link href="https://mail.google.com/mail/u/0/#inbox">
         <Image
-          src={facebook}
-          alt="facebook"
+          src={email}
+          alt="gmail"
           className="max-h-[40px] w-auto hover:scale-125 transition ease-in-out max-sm:max-h-[60px]"
         />
       </Link>

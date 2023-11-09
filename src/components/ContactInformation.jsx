@@ -16,7 +16,7 @@ const ContactInformation = () =>{
         Whether you need a quote, have specific logistics questions, 
         or wish to explore partnership opportunities, our dedicated team 
         is here to assist. Dont hesitate to get in touch, and wew will
-        respond to your logistics needs."
+        respond to your logistics needs.
        </p>
        <div className="flex flex-col gap-14 ">
        <h3 className="flex gap-5 justify-center items-center text-[40px] bg-red-800 p-7 rounded-xl">

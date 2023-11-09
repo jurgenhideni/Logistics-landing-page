@@ -26,7 +26,7 @@ const ContactInformation = () =>{
             <BsFillTelephoneFill/> +355 69 74 31 224
         </h3>
        <h3 className="flex gap-5 justify-center items-center text-[40px] drop-shadow-md bg-red-800 p-7 rounded-xl">
-            <BsFillEnvelopeFill/> hideniflorenc@gmail.com
+            <BsFillEnvelopeFill/> logisticshideni@gmail.com
         </h3>
        <h3 className="flex gap-5 justify-center items-center text-[40px] drop-shadow-md bg-red-800 p-7 rounded-xl ">
             <BsInstagram/> @hidenilogistics

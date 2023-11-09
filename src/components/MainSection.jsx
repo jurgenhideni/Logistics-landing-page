@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import image1 from "../assets/image1.png";
 import Link from "next/link";
-import Socials from "./Socials";
+
 
 const MainSection = () => {
   return (
@@ -30,7 +30,7 @@ const MainSection = () => {
           >
             More Info...
           </Link>
-          <Socials />
+         
         </div>
       </div>
     </div>

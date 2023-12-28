@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: rgb(219, 228, 238);
+
+
+html {
+  background-color: rgb(29, 36, 47);
 }
 
-textarea {
-  resize: none;
+@media screen and (max-width: 600px) {
+  html{
+    width: 100vh
+  }
 }

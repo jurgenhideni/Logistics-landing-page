@@ -44,7 +44,7 @@ const MainSection = () => {
  className="lg:my-1 lg:text-yellow-500 lg:text-[5rem]" />
   <div> 
     <h2 className="font-bold text-blue-500 text-[2rem] ">Air Fright Services</h2>
-    <p>Our logistics company's air freight service is 
+    <p>Our logistics companys air freight service is 
       characterized by a commitment to timely deliveries,
        providing a dependable solution for your urgent shipping needs.</p>
   </div>
@@ -85,7 +85,7 @@ const MainSection = () => {
  className="my-1 text-yellow-500 text-[5rem]" />
   <div> 
     <h2 className="font-bold text-blue-500 text-[3rem] ">Air Fright Services</h2>
-    <p className="text-[1.5rem]">Our logistics company's air freight service is 
+    <p className="text-[1.5rem]">Our logistics companys air freight service is 
       characterized by a commitment to timely deliveries,
        providing a dependable solution for your urgent shipping needs.</p>
   </div>

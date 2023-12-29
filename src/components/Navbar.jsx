@@ -6,7 +6,7 @@ import { FaRegPaperPlane } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="lg:bg-blue-500 flex justify-between max-sm:mx-0 gap-10 max-sm:gap-[100px] lg:px-10 sticky">
+    <div className="lg:bg-blue-500 flex justify-between max-sm:mx-0 gap-10 max-sm:gap-[100px] lg:px-10 ">
       <div className="max-sm:hidden ">
         <h1 className="  font-bold text-[3rem] text-center text-white">
           HLS
